@@ -1,0 +1,1 @@
+Sou um pai solteiro de 2 crianças, no momento passamos por uma situação dificil financeiramente, estou precisando de 40 mil reais pra conseguir colocar a vida no lugar certo novamente. Conto com sua generosidade neste momento dificil. Agradeço e que Deus te abençoe.
