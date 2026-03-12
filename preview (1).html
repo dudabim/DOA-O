@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apoie com Pix</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+text-align:center;
+}
+
+.container{
+max-width:700px;
+margin:auto;
+padding:40px 20px;
+}
+
+.card{
+background:white;
+color:#333;
+border-radius:15px;
+padding:40px;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+h1{
+margin-top:0;
+}
+
+.pix{
+font-size:24px;
+font-weight:bold;
+color:#00a86b;
+margin:20px 0;
+}
+
+button{
+background:#00a86b;
+color:white;
+border:none;
+padding:15px 25px;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#008f5a;
+}
+
+.qr{
+margin-top:25px;
+}
+
+footer{
+margin-top:30px;
+font-size:14px;
+opacity:0.7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>💝 Apoie com uma doação</h1>
+
+<p>Se quiser me ajudar, você pode enviar qualquer valor via Pix.</p>
+
+<div class="pix">
+PIX: 03382288109
+</div>
+
+<button onclick="copiarPix()">Copiar chave Pix</button>
+
+<div class="qr">
+<p>Escaneie ou copie a chave Pix no seu banco.</p>
+</div>
+
+<p style="margin-top:30px">
+Muito obrigado pelo apoio 🙏
+</p>
+
+</div>
+
+<footer>
+© 2026 Apoio via Pix
+</footer>
+
+</div>
+
+<script>
+function copiarPix(){
+navigator.clipboard.writeText("03382288109");
+alert("Chave Pix copiada!");
+}
+</script>
+
+</body>
+</html>
